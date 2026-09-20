@@ -1,40 +1,41 @@
-# AWS 3-Tier Architecture
+# AWS 3-Tier Architecture Project
 
-A hands-on AWS project implementing a secure and highly available **3-Tier Web Application Architecture** using AWS networking and compute services.
+## Overview
+
+This project demonstrates the deployment of a scalable, highly available, and secure 3-tier application architecture on AWS.
+
+## Services Used
+
+- Amazon VPC
+- EC2
+- RDS MySQL
+- Internet Gateway
+- NAT Gateway
+- Application Load Balancer
+- Security Groups
+- Auto Scaling
 
 ## Architecture
 
-The solution is divided into three layers:
+[Insert architecture diagram]
 
-* **Web Tier** – Public subnets hosting the Application Load Balancer
-* **Application Tier** – Private subnets hosting the application servers
-* **Database Tier** – Private subnets hosting Amazon RDS MySQL
+## Tasks Completed
 
-## AWS Services Used
+- Task 1: Networking Infrastructure
+- Task 2: Web Tier Deployment
+- Task 3: Application Tier Deployment
+- Task 4: Database Tier Deployment
+- Task 5: Security Groups
+- Task 6: Public ALB
+- Task 7: Internal ALB
+- Task 8: Nginx Reverse Proxy
+- Task 9: RDS Integration
+- Task 10: Validation
 
-* Amazon VPC
-* Public and Private Subnets
-* Internet Gateway
-* NAT Gateway
-* Application Load Balancer (ALB)
-* EC2
-* Amazon RDS MySQL
-* Security Groups
-* Route Tables
-* AWS Systems Manager Session Manager
+## Validation
 
-## Key Objectives
+Successfully submitted feedback through the application and verified records in Amazon RDS.
 
-* Design a secure VPC network across multiple Availability Zones
-* Implement public and private subnet architecture
-* Configure secure communication between Web, Application, and Database tiers
-* Deploy an application on EC2
-* Configure ALB for application traffic distribution
-* Connect the application tier securely to RDS
-* Use NAT Gateway for controlled outbound internet access from private resources
-* Troubleshoot and validate end-to-end application connectivity
+## Author
 
-## Project Outcome
-
-Successfully implemented and tested a functional AWS 3-Tier Architecture with separation of concerns, private database access, controlled network traffic, and secure application connectivity.
-
+Deepshika
